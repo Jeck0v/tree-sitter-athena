@@ -1,0 +1,291 @@
+[
+  {
+    "type": "deployment_directive",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "end_service",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "line",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "deployment_directive",
+          "named": true
+        },
+        {
+          "type": "empty_line",
+          "named": true
+        },
+        {
+          "type": "end_service",
+          "named": true
+        },
+        {
+          "type": "section_directive",
+          "named": true
+        },
+        {
+          "type": "service_directive",
+          "named": true
+        },
+        {
+          "type": "service_property",
+          "named": true
+        },
+        {
+          "type": "version_directive",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "port_mapping",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "restart_policy",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "section_directive",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "service_directive",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "service_property",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "port_mapping",
+          "named": true
+        },
+        {
+          "type": "quoted_string",
+          "named": true
+        },
+        {
+          "type": "restart_policy",
+          "named": true
+        },
+        {
+          "type": "template_var",
+          "named": true
+        },
+        {
+          "type": "value",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "line",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "version_directive",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "version",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "COMMAND",
+    "named": false
+  },
+  {
+    "type": "CPU",
+    "named": false
+  },
+  {
+    "type": "DEPENDS-ON",
+    "named": false
+  },
+  {
+    "type": "DEPLOYMENT-ID",
+    "named": false
+  },
+  {
+    "type": "END",
+    "named": false
+  },
+  {
+    "type": "ENV-VARIABLE",
+    "named": false
+  },
+  {
+    "type": "ENVIRONMENT SECTION",
+    "named": false
+  },
+  {
+    "type": "HEALTH-CHECK",
+    "named": false
+  },
+  {
+    "type": "IMAGE-ID",
+    "named": false
+  },
+  {
+    "type": "MEMORY",
+    "named": false
+  },
+  {
+    "type": "NETWORK-NAME",
+    "named": false
+  },
+  {
+    "type": "PORT-MAPPING",
+    "named": false
+  },
+  {
+    "type": "RESOURCE-LIMITS",
+    "named": false
+  },
+  {
+    "type": "RESTART-POLICY",
+    "named": false
+  },
+  {
+    "type": "SERVICE",
+    "named": false
+  },
+  {
+    "type": "SERVICES SECTION",
+    "named": false
+  },
+  {
+    "type": "TO",
+    "named": false
+  },
+  {
+    "type": "VERSION-ID",
+    "named": false
+  },
+  {
+    "type": "VOLUME-MAPPING",
+    "named": false
+  },
+  {
+    "type": "always",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "empty_line",
+    "named": true
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "number",
+    "named": true
+  },
+  {
+    "type": "on-failure",
+    "named": false
+  },
+  {
+    "type": "quoted_string",
+    "named": true
+  },
+  {
+    "type": "template_var",
+    "named": true
+  },
+  {
+    "type": "unless-stopped",
+    "named": false
+  },
+  {
+    "type": "value",
+    "named": true
+  },
+  {
+    "type": "version",
+    "named": true
+  }
+]
