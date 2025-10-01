@@ -1,0 +1,41 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "athena",
+      "camelcase": "Athena",
+      "title": "Athena",
+      "scope": "source.athena",
+      "file-types": [
+        ".ath"
+      ],
+      "injection-regex": "^athena$",
+      "class-name": "TreeSitterAthena"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter for athena",
+    "authors": [
+      {
+        "name": "Jeck0v",
+        "email": "arnaud.fischer75@gmail.com",
+        "url": "https://github.com/Jeck0v"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/Jeck0v/tree-sitter-athena",
+      "funding": "https://github.com/Jeck0v/tree-sitter-athena"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
